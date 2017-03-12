@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:id="@+id/button_capture"
+            android:src="@drawable/ic_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            />
+
+        <ImageButton
+            android:id="@+id/button_record"
+            android:src="@drawable/ic_movie_film_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_flash_off_128"
+            android:layout_gravity="bottom|left"
+            android:id="@+id/button_flash"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flip_cam"
+            android:id="@+id/button_flip"
+            android:layout_gravity="bottom|right"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_record_512"
+            android:id="@+id/img_rec_sign"
+            android:layout_gravity="top|left"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <basicCommand> =  <start> <rest>;
+<rest> =  <onePart> | set (the)* <twoPart> | take <queryPart> | help <object> | record (a)* video;
+<start> = ok camera;
+<onePart> = zoom in | zoom out | switch | open gallery;
+<twoPart> = <object> (to)* <state>;
+<object>  = effect mode | flash light | focus mode | scene mode | white balance mode | setting | command;
+<queryPart> = <number> photos | (a)* photo;
+<number> = one | two | three | four | five | six | seven | eight | nine | ten;
+<state>   = off |
+            on |
+            auto |
+            continuous picture |
+            continuous video |
+            depth |
+            fixed |
+            infinity |
+            close|
+            black board |
+            mono |
+            white board |
+            negative |
+            none |
+            solar|
+            action |
+            candle |
+            firework |
+            beach|
+            landscape |
+            portrait |
+            snow |
+            sport |
+            balance |
+            cloudy |
+            daylight;
