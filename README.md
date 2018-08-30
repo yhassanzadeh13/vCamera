@@ -10,3 +10,6 @@ By interacting with the user over the voice, vCamera can offer the following ser
 
 # Project Demo: 
 https://www.youtube.com/watch?v=9Ximl2Ope2s
+
+# Project Report:
+https://archive.org/details/FinalReportYahyaHassanzadeh
